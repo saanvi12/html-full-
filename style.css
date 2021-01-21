@@ -1,0 +1,21 @@
+/*p{
+	color: purple;
+}*/
+#one
+{
+color: purple;
+font-family: times new roman;
+font-size: 300%;
+}
+
+.two {
+  color: red;
+  font-size: 160%;
+}
+
+.three{
+	color: green;/*
+	font-family: comic sans;*/
+	/*font-size: 200%;*/
+	font-family: courier;
+}

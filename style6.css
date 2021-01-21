@@ -1,0 +1,10 @@
+.image{
+	border-style: dotted;
+	border-color: black;
+	padding: 25px;
+}
+
+.image:hover{
+	border-color: red;
+	background: yellow;
+}

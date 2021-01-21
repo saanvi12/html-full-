@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>How to Specify an image as a server-side image-map
+</title>
+</head>
+<body>
+<a href="area.map">  
+
+
+<img src="https://www.w3resource.com/w3r_images/html-area-element.png" alt="area example" width="308" height="190" border="0" usemap="#Map">  
+
+
+<map name="Map">  
+
+<area shape="rect" coords="8,5,100,77" href="https://www.w3resource.com/mysql/mysql-tutorials.php" target="_blank" alt="mysql tutorial">  
+
+
+<area shape="circle" coords="155,93,59" href="https://www.w3resource.com/php/php-home.php" target="_blank" alt="php tutorial">  
+
+<area shape="rect" coords="197,136,306,188" href="https://www.w3resource.com/sql/sql-tutorials.php" alt="sql tutorials">  
+
+</map>  
+</body>
+</html>
+
+<!-- Coordinate System
+The actual value of coords is totally dependent on the shape in question. Here is a summary, to be followed by detailed examples −
+
+rect = x1 , y1 , x2 , y2
+
+x1 and y1 are the coordinates of the upper left corner of the rectangle; x2 and y2 are the coordinates of the lower right corner.
+
+circle = xc , yc , radius
+
+xc and yc are the coordinates of the center of the circle, and radius is the circle's radius. A circle centered at 200,50 with a radius of 25 would have the attribute coords = "200,50,25"
+
+poly = x1 , y1 , x2 , y2 , x3 , y3 , ... xn , yn
+
+The various x-y pairs define vertices (points) of the polygon, with a "line" being drawn from one point to the next point. A diamond-shaped polygon with its top point at 20,20 and 40 pixels across at its widest points would have the attribute coords = "20,20,40,40,20,60,0,40".
+
+All coordinates are relative to the upper-left corner of the image (0,0). Each shape has a related URL. You can use any image software to know the coordinates of different positions. -->

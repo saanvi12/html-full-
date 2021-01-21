@@ -1,0 +1,16 @@
+.code{
+	border-style: dotted;
+	border-radius: 100px;
+}
+
+.code2{
+	border-style: dotted;
+	border-radius: 100px;
+	border-color: white;
+}
+
+.code2:hover{
+	color: white;
+	background: black;
+	border-color: black;
+}

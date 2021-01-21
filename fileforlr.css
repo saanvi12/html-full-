@@ -1,0 +1,9 @@
+.lrecap{
+    color: rgb(75, 8, 72);
+    font-family: cursive;
+    font-size: 200%;
+}
+
+.lrecap:hover{
+    color: paleturquoise;
+}
